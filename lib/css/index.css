@@ -93,7 +93,15 @@ input[name=search]{
 	padding: 1rem;
 }
 .list .inner .name > span{
-	margin: 1rem;	
+	margin:2rem 1rem;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);	
+}
+.list .inner .name > span:hover{
+	color: #408DD1;
+}
+.list .inner .name > span.index{
+	color: #408DD1;
 }
 .list .inner table{
 	width: 100%;
