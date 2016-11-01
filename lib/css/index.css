@@ -131,6 +131,9 @@ input[name=search]{
 	padding-left: 1rem;
 	font-size: 1.2rem; 	
 }
+.list .inner table .td2 img{
+	max-width: 100%;
+}
 .list .inner table .padding_left{
 	padding-left: 3rem;  	
 }
